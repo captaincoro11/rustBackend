@@ -1,0 +1,5 @@
+(dyn HttpBody<Data = axum::body::Bytes, Error = axum::Error> + Send + 'static)
+Unique<(dyn HttpBody<Data = axum::body::Bytes, Error = axum::Error> + Send + 'static)>
+Box<(dyn HttpBody<Data = axum::body::Bytes, Error = axum::Error> + Send + 'static)>
+Pin<Box<(dyn HttpBody<Data = axum::body::Bytes, Error = axum::Error> + Send + 'static)>>
+http_body_util::combinators::box_body::UnsyncBoxBody<axum::body::Bytes, axum::Error>

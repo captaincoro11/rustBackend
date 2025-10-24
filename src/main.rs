@@ -1,12 +1,7 @@
-use axum:: {routing::get,Router};
+use rustBackend2::run;
 
 #[tokio::main]
 async fn main(){
-    let app = Router::new().route("/hello",get(hello_world));
-    let listener = tokio::net::TcpListener::bind("0.0.0.0:3000").await.unwrap();
-    axum::serve(listener,app).await.unwrap();
+   run().await
 }
 
-async fn hello_world()-> String {
-    String::from("Hello, World Papa")
-}

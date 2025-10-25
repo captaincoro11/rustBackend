@@ -1,5 +1,4 @@
 mod routes;
-use axum::{routing::get,Router};
 
 use crate::routes::create_routes;
 pub async fn run() {

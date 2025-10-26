@@ -19,5 +19,5 @@ pub fn create_routes()->Router<> {
     .route("/mirror_body_json",post(mirror_body_json))
     .route("/path_variables/{id}",get(path_variables))
     .route("/query_params",get(query_params))
-    .route("/mirror_user_agent", get(mirror_user_agent))
+    .route("/mirror_user_agent", post(mirror_user_agent))
 }

@@ -9,3 +9,4 @@ serde = { version = "1.0.228", features = ["derive"] }
 tokio = { version = "1.48.0", features = ["rt-multi-thread"] }
 axum-extra = { version = "0.9", features = ["typed-header"] }
 headers = "0.4"
+tower-http = { version = "0.6.6", features = ["cors"] }

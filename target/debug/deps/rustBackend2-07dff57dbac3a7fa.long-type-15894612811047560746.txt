@@ -1,0 +1,2 @@
+fn(Extension<HeaderMessage>) -> impl Future<Output = std::string::String> {middleware_custom_header}
+fn(Extension<HeaderMessage>) -> impl Future<Output = std::string::String> {middleware_custom_header}: Handler<_, _>

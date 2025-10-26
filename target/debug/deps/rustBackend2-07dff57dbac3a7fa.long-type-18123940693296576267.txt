@@ -1,0 +1,2 @@
+fn(_) -> Extension<_> {Extension::<_>}
+fn(_) -> Extension<_> {Extension::<_>}: tower_layer::Layer<Route>

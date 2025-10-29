@@ -1,0 +1,2 @@
+fn(Json<RequestUser>) -> impl Future<Output = Json<RequestUser>> {validate_data}
+fn(Json<RequestUser>) -> impl Future<Output = Json<RequestUser>> {validate_data}: Handler<_, _>

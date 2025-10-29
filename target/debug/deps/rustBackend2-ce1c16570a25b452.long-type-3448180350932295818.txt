@@ -1,0 +1,1 @@
+fn(axum::Json<RequestUser>) -> impl Future<Output = axum::Json<RequestUser>> {validate_data}: Handler<_, _>
